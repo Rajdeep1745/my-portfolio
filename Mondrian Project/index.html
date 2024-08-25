@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mondrian Project</title>
+    <style>
+      /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+      .flex-container {
+        display: flex;
+        justify-content: center;
+      }
+      .container {
+        height: 746px;
+        width: 748px;
+        display: grid;
+        grid-template: 414px 130px 155px 20px / 320px 198px 153px 50px;
+        background-color: #000;
+        gap: 9px;
+      }
+      .red {
+        background-color: #e72f24;
+      }
+      .white {
+        background-color: #f0f1ec;
+      }
+      .gray {
+        background-color: #232629;
+      }
+      .blue {
+        background-color: #004592;
+      }
+      .yellow {
+        background-color: #f9d01e;
+      }
+      #first {
+        grid-column: span 3;
+      }
+      #second {
+        grid-row: span 2;
+      }
+      #third {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+      #fourth {
+        grid-row: span 2;
+        border-top: 10px solid #000;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Write your HTML here -->
+    <div class="flex-container">
+      <div class="container">
+        <div class="red box"></div>
+        <div id="first" class="white box"></div>
+        <div id="second" class="white box"></div>
+        <div id="third" class="white box"></div>
+        <div class="blue box"></div>
+        <div id="fourth" class="white box"></div>
+        <div id="fifth" class="white box"></div>
+        <div class="yellow box"></div>
+        <div class="gray box"></div>
+      </div>
+    </div>
+  </body>
+</html>

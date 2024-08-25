@@ -1,0 +1,132 @@
+body {
+  background-color: azure;
+  padding: 0;
+  margin: 0;
+}
+
+.cloud {
+  height: 200px;
+}
+
+.cloud-one {
+  position: absolute;
+}
+
+.mountain {
+  position: absolute;
+  height: 697px;
+  z-index: -1;
+}
+
+.cloud-two {
+  position: absolute;
+  top: 70px;
+  left: 1300px;
+}
+
+#hero h1 {
+  text-decoration: underline;
+  color: aqua;
+}
+
+.my-pic {
+  border: 15px solid beige;
+  border-radius: 5%;
+}
+
+#resume h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 60px;
+}
+
+.resume-container img {
+  height: 200px;
+  width: 250px;
+}
+
+.resume-container h3 {
+  text-decoration: underline;
+}
+
+.resume-container {
+  background-color: cornflowerblue;
+  border: 10px solid beige;
+  border-radius: 25px;
+}
+
+.resume-link {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#portfolio h2 {
+  font-weight: 500;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 60px;
+  text-decoration-thickness: 3px;
+}
+
+.website-title {
+  font-size: 30px;
+}
+
+.portfolio-image {
+  height: 400px;
+  width: 300px;
+  border: 10px solid beige;
+  border-radius: 30px;
+}
+
+.project-items {
+  margin: 30px;
+  margin-bottom: 100px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.flex-container {
+  margin: 50px;
+  display: flex;
+  gap: 200px;
+  justify-content: space-evenly;
+}
+
+.about-image {
+  margin-left: 200px;
+  height: 500px;
+  border: 10px solid beige;
+  border-radius: 5%;
+}
+
+.flex-container-inner {
+  margin-left: 100px;
+}
+
+#cinephile {
+  display: inline;
+}
+
+.flex-container-contact {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.flex-container-contact h3 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.contact-me {
+  width: 500px;
+}
+
+.instagram {
+  height: 50px;
+}
